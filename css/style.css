@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.petunjuk {
+  background: #FB8C00;
+  /* height: 100vh; */
+  text-align: center;
+  /* position: fixed; */
+  min-width: 200px;
+}
+
+.petunjuk h1 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.p1 {
+  background: #fff;
+  height: 200px;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.p1 img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.p2, .p4{
+  background: #fff;
+  border-radius: 18px;
+  margin: 15px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  /* height: px; */
+}
+
+.p2 .nomor {
+  margin-top: -5px;
+  margin-left: 12px;
+  background: #FB8C00;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  color: #fff;
+  
+}
+
+.p2 .nomor2 {
+  background: #3F3D56;
+}
+
+.nomor p {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.p2 .s10 p {
+  /* margin-top: 18px; */
+  margin-left: 10px;
+  text-align: left;
+}
+
+p.jingga {
+  color: #FB8C00;
+}
+
+p.ungu {
+  color: #3F3D56;
+}
+
+.p2 .s10 p span {
+  font-weight: 700;
+}
+
+.p3 {
+  background: #fff;
+  height: 174px;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.p3 img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+@media all and (min-width: 700px) {
+  .petunjuk {
+    height: 100vh;
+    position: fixed;
+    width: 500px;
+  }
+
+  .row .col.m3 {
+    max-width: 100%;
+    min-width: 400px;
+  }
+}
+
+@media all and (min-height: 800px) {
+  .petunjuk {
+    height: 100vh;
+  }
+}

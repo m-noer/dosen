@@ -1,0 +1,85 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */;
+}
+
+.flex-container > div {
+  text-align: center;
+}
+
+.colm1, .colm2 {
+  padding: 20px;
+}
+
+.colm1 {
+  height: 100vh;
+  width: 100%;
+  background: #ff9800;
+}
+
+.colm2 {
+  margin: 0 auto;
+}
+
+.colm2 h5 {
+  text-align: center;
+  color: #ff9800 ;
+}
+
+.colm2 .isi {
+  width: 100%;
+}
+
+.isi {
+  width: 50px;
+  padding: 60px;
+  background: #ffffff;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 9px 30px 2px rgba(107,107,107,0.19);
+  -moz-box-shadow: -1px 9px 30px 2px rgba(107,107,107,0.19);
+  box-shadow: -1px 9px 30px 2px rgba(107,107,107,0.19);
+}
+
+.colm1 h1 {
+  font-size: 27px;
+  color: #fff;
+}
+
+.image {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+
+}
+
+button.button {
+  width: 100%;
+  background: #ff9800;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.button:hover {
+  background: #ff6d00  ;
+}
+
+@media all and (min-width: 700px) {
+  /* We tell both sidebars to share a row */
+  .colm1 {
+    flex: 1;
+  }
+
+  .colm2 {
+    flex: 1;
+  }
+
+  
+}
